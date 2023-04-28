@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='utf-8'>
+	<meta name='author' content='nyko'>
+	<meta name='description' content=''/>
+	<meta name='keywords' content='' />
+	<meta name='license' content='name=BY-NC-SA(4.0), url=https://creativecommons.org/licenses/by-nc-sa/4.0/'/>
+	<meta name='thumbnail' content='' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<meta property='og:title' content='indictvs'>
+	<meta property='og:description' content='website of nyko'>
+	<meta property='og:image' content=''>
+	<meta property='og:url' content=''>
+	<link rel='alternate' type='application/rss+xml' title='RSS Feed' href='' />
+	<link rel='shortcut icon' type='image/png' href='media/services/icon.png'>
+	<link rel='stylesheet' type='text/css' href='static.css'>
+	<noscript>
+		<meta http-equiv='refresh' content='0; url=indictvs.html' />
+	</noscript>
+	<title>Indictus</title>
+</head>
+<body >
+	<main>
+	  <p>
+	    Hello! This is <b>Indictus</b>. My little space on the web.
+	  </p>
+<img src="files/poster1.jpg" width="20%"/>
+	  <p><em>currently under heavy construction</em></p>
+
+	  <b><a href="about.html">nyko</a></b> 2023
+	  		<p>Loading <a href='indictvs.html' target='_blank'>home...</a>.</p>
+	
+  
+	</main>
+	<script>
+	'use strict'
+
+	const filename = toFilename(window.location.hash || 'indictvs')
+
+	window.location.replace(`p/${filename}.html`)
+
+	function toFilename(str) {
+		return `${str}`.replace('#','').replace(/[\W_]+/g,"_").toLowerCase().trim()
+	}
+  </script>
+</body>
+</html>
