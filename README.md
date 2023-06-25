@@ -1,5 +1,7 @@
 # Indict.us
 
-A simple web site
+## A simple Tiddlywiki web site
+
+https://indict.us
 
 nyko 2023
